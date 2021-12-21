@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F05454;
+}
+nav{
+    display: flex;
+    
+}
+#lg{
+    height: 80px;
+    align-items: center;
+    
+}
+.ig{
+    margin: 10px;
+}
+#git{
+    text-decoration: none;
+    
+    
+}
+#search-box{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    box-shadow: 1px 1px 5px 0.7px;
+    margin: 30px;
+}
