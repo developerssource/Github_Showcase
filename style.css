@@ -6,7 +6,7 @@
 .head{
     display: block;
     width: 100%;
-    height: 300px;
+    height: 50vh;
     background-color: #4311c0;
     
     
@@ -15,7 +15,7 @@
 .content{
     display: flex;
     float: left;
-    justify-content:right;
+    justify-content:space-evenly;
     flex-wrap: wrap;
    
     
@@ -28,7 +28,7 @@
 }
 #img{
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 100px;
     height: 250px;
     position: relative;
     
@@ -53,7 +53,6 @@ h2{
 }
 .icon{
     display: grid;
-    
     margin-top: 40px;
     margin-left: 60px;
 }
@@ -64,24 +63,40 @@ h2{
 .hero{
     display: flex;
     flex-wrap:wrap;
-    /* justify-content: space-between;
-    align-items: center; */
+    justify-content: space-evenly;
     margin-top: 10px;
+    position: relative;
+    align-content: center;
+    justify-self: center;
 }
 .pr1{
-    margin: 10px 20px;
+    margin: 10px;
     width: 35%;
     height: 300px;
     background-color:#e7e7e7;
     font-family: 'Poppins', sans-serif;
     border: none;
     border-radius:7px;
-    
+   
     
     
 }
 .pr1:hover{
     box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+    background-image: linear-gradient(
+  40deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 12%,
+  hsl(315deg 100% 27%) 23%,
+  hsl(329deg 100% 36%) 35%,
+  hsl(337deg 100% 43%) 46%,
+  hsl(357deg 91% 59%) 57%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+  
+);
    
 }
 .ig1{
@@ -108,6 +123,9 @@ h2{
         margin-top: 2px;
         color: #4d4a4a;
 }
+#pr1pr:hover{
+    color: #fff;
+}
 .ic1{
     margin:4px 0px;
     display: flex;
@@ -130,6 +148,19 @@ h2{
 }
 .pr2:hover{
     box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+    background-image: linear-gradient(
+  215deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 12%,
+  hsl(315deg 100% 27%) 23%,
+  hsl(329deg 100% 36%) 35%,
+  hsl(337deg 100% 43%) 46%,
+  hsl(357deg 91% 59%) 57%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
 }
 .ig2{
     width: 100%;
@@ -139,6 +170,141 @@ h2{
     background-size: cover;
     background-position:top;
     backface-visibility: visible;
-    
+   }
 
+/* Project 3 Hommy */
+.pr3{
+    margin: 10px;
+    width: 35%;
+    height: 300px;
+    background-color:#e7e7e7;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius:7px;    
+}
+.pr3:hover{
+    box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+    background-image: linear-gradient(
+  330deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 12%,
+  hsl(315deg 100% 27%) 23%,
+  hsl(329deg 100% 36%) 35%,
+  hsl(337deg 100% 43%) 46%,
+  hsl(357deg 91% 59%) 57%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+.ig3{
+    width: 100%;
+    height: 176px;
+    background-image: url("./assets/RealEstate\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    backface-visibility: visible;
+    
+   
+}
+
+ /* Project 4  Portfolio    */
+ .pr4{
+    margin: 10px;
+    width: 35%;
+    height: 300px;
+    background-color:#e7e7e7;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius:7px;  
+ }
+ .pr4:hover{
+    box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+    background-image: linear-gradient(
+  320deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(286deg 100% 21%) 10%,
+  hsl(311deg 100% 25%) 20%,
+  hsl(325deg 100% 34%) 30%,
+  hsl(334deg 100% 40%) 40%,
+  hsl(346deg 83% 51%) 50%,
+  hsl(6deg 98% 61%) 60%,
+  hsl(22deg 100% 57%) 70%,
+  hsl(37deg 100% 50%) 80%,
+  hsl(46deg 100% 50%) 90%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+.ig4{
+    width: 100%;
+    height: 176px;
+    background-image: url("./assets/Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    backface-visibility: visible;
+   }
+   @media (max-width: 600px  ){
+    .head{
+     height: 90vh;
+    }
+   .con1{
+        margin:0;
+        padding: 0;
+        margin-top: 25px;
+        text-align: justify;
+    }
+      #img{
+        
+            margin-left: auto;
+            margin-right: auto;
+           
+    }
+    .icon {
+        
+        margin:0;
+        padding: 0;
+        margin-top: 15px;
+        display: block;  
+        align-items: center;
+        justify-content: left;
+        
+        
+    }
+    .pr1{
+       
+        width: 45%;
+        height: 300px;
+    }
+    .pr2{
+        width: 45%;
+    }
+    .pr3{
+        width: 45%;
+    }
+    .pr4{
+        width: 45%;
+    }
+    .ig1 .ig2 .ig3 .ig4{
+        background-position:top;
+        background-size: cover;
+        
+        
+    }
+    #pr1h3{
+        font-size: 13px;
+    }
+    #pr1pr{
+        margin-left: 17.5px;
+        padding: 0px;
+        line-height: normal;
+        font-size: 11px;
+    }
+    .ic1{
+       
+    }
+    
+    
 }
