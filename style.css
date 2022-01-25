@@ -33,6 +33,7 @@
     position: relative;
     
 }
+   
 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 20.58px;
@@ -55,4 +56,89 @@ h2{
     
     margin-top: 40px;
     margin-left: 60px;
+}
+
+/* Project Section CSS */
+
+/* Project reipe */
+.hero{
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: 10px;
+}
+.pr1{
+    margin: 10px 20px;
+    width: 35%;
+    height: 300px;
+    background-color:#e7e7e7;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius:7px;
+    
+    
+    
+}
+.pr1:hover{
+    box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+   
+}
+.ig1{
+    width: 100%;
+    height: 176px;
+    background-image: url("./assets/Frame\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    backface-visibility: visible;
+    
+   
+}
+#pr1h3{
+    
+    margin-left: 17px;
+    margin-top: 6px;
+    
+}
+#pr1pr{
+        line-height: 22px;
+        font-size: 15px;
+        padding: 0px 16px;
+        margin-top: 2px;
+        color: #4d4a4a;
+}
+.ic1{
+    margin:4px 0px;
+    display: flex;
+    align-content: left;
+    align-items: left;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* Project 2 Travelly */
+.pr2{
+    margin: 10px;
+    width: 35%;
+    height: 300px;
+    background-color:#e7e7e7;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius:7px;
+    
+}
+.pr2:hover{
+    box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+}
+.ig2{
+    width: 100%;
+    height: 176px;
+    background-image: url("./assets/Travelly\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    backface-visibility: visible;
+    
+
 }
