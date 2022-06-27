@@ -21,4 +21,5 @@ I hosted this repository on netlify you can visit to my Github showcase [here!](
 |5|Dev Portfolio| Website |[Dev Portfolio](https://personal-portfoliosite.netlify.app//)|
 
 
-There are various ways to create websites but the small indivisual components like navbar, responsive and sticky navbar, animated buttons and different background animatons are more interesting while developing code, I created another repository where you will find all the web components and code samples, you can visit to repo from [here!](https://github.com/ganeshpatil386386/Web_Development)
+Indivisual components like responsive and sticky navbar, animated buttons and different animatons are more interesting while developing websites, I created another repository where you will find all the web components and code samples, you can visit to repo from [here!](https://github.com/ganeshpatil386386/Web_Development)
+
