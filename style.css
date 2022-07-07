@@ -1,7 +1,9 @@
+
 *{
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .head{
     display: block;
@@ -68,6 +70,7 @@ h2{
     position: relative;
     align-content: center;
     justify-self: center;
+    
 }
 .pr1{
     margin: 10px;
@@ -102,7 +105,7 @@ h2{
 .ig1{
     width: 100%;
     height: 176px;
-    background-image: url("./assets/Frame\ 6.png");
+    background-image: url("./assets/Thumnails/Project_1_recipe.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
@@ -165,7 +168,7 @@ h2{
 .ig2{
     width: 100%;
     height: 176px;
-    background-image: url("./assets/Travelly\ 1.png");
+    background-image: url("./assets/Thumnails/Project_2_Travelly.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
@@ -201,7 +204,7 @@ h2{
 .ig3{
     width: 100%;
     height: 176px;
-    background-image: url("./assets/RealEstate\ 1.png");
+    background-image: url("./assets/Thumnails/Project_3_hommy.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
@@ -240,7 +243,7 @@ h2{
 .ig4{
     width: 100%;
     height: 176px;
-    background-image: url("./assets/Capture.PNG");
+    background-image: url("./assets/Thumnails/Project_4_Personal_Portfolio.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
@@ -260,6 +263,7 @@ h2{
  }
  .pr5:hover{
     box-shadow: 0.7px 0.9px 9px 0.5px #bca8e9;
+    filter: drop-shadow(0.7px 0.9px 9px 0.5px #bca8e9);
     background-image: linear-gradient(
   320deg,
   hsl(240deg 100% 20%) 0%,
@@ -278,17 +282,54 @@ h2{
 .ig5{
     width: 100%;
     height: 176px;
-    background-image: url("./assets/Dev-portfolio.jpeg");
+    background-image: url("./assets/Thumnails/Project_5_Dev-portfolio.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
     backface-visibility: visible;
    }
 
+/* Project 6 Travelling Website */
+
+.ig6{
+    width: 100%;
+    height: 176px;
+    background-image: url("./assets/Thumnails/Project_6_travel_website.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    backface-visibility: visible;
+   }
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    font-family: "Fira Mono", monospace;
+    background-color: #000000;
+    color: #f0a500;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-icons li {
+    list-style: none;
+    margin: 0.2em;
+    padding-bottom: 1em;
+  }
+  .footer-icons li a i {
+    font-size: 18px;
+    border: none;
+    color: #f0a500;
+  }
 
 
-
-
+/* Screen Responsive */
 
    @media screen and (max-width: 650px  ){
     .head{

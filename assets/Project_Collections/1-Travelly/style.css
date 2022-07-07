@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    
+    width: 98%;
+   
+    
+}
+.nav{
+    display:flex ;
+    min-height: 10vh;
+}
+ul,li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    float: right;
+    padding: 12px 10px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    float: right;
+    color: coral;
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+a:hover{
+    color: brown;
+}
+#logo{
+    flex: 1 1 20rem;
+    color:rgb(3, 2, 0);
+    padding: 20px;
+    margin-left: 30px;
+    font-family: 'Pattaya', sans-serif;
+}
+.main{
+    padding: 50px;
+    margin-top: 4rem;
+    color: rgb(224, 79, 21);
+    text-align: justify ;
+    font-family: 'poppins';
+    font-weight: bold;
+} 
+
+p{
+    color: rgb(62, 63, 62);
+    margin-top: 12px;
+    font-family: 'poppins';
+}
+#btn{
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: 'poppins';
+    border: none;
+    border-radius:5px ;
+    width: 8rem;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    font-size: 16px;
+    
+}
+

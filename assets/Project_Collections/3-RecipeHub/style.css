@@ -1,0 +1,202 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    height: 10vh;
+    position: relative;
+    
+}
+.nav{
+    display: flex;
+    float: right;
+    position: fixed;
+   
+}
+ul{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 45rem;
+  
+}
+a{
+    display: flex;
+    float: right;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:170 ;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
+a:hover{
+      border-bottom: 3px solid red;
+    
+    
+}
+.logo{
+    display: flex;
+    padding: 12px 3rem ;
+    position: fixed;
+  
+   
+}
+
+h1{
+    padding: 1px 10px;
+   
+}
+.header-img{
+    position: relative;
+    
+}
+img{
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 360px;
+    position:relative ;  
+    position: fixed;
+   
+}
+.text{
+    position: fixed;
+    text-align: center;
+    margin-top: 4.5rem;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+#lg{
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+p{
+    margin-top: 1rem;
+    margin-left: 10rem;
+    padding-right: 1rem;
+    font-weight: lighter;
+}
+#in{
+    background-image: url("./assets/search.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 4px;
+    background-size: 19px;
+    padding-left: 18px;
+    padding-top: 2px;
+    margin-top: 2rem ;
+    margin-left: 8.8rem;
+    width: 42rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 15px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    
+}
+.container{
+    position: absolute;
+
+}
+.one{
+    width: 5rem;
+    background-color: rgb(247, 66, 66);
+}
+.hero{
+    display: flex;
+    float: left;
+    margin-top: 130px;
+    margin-left: 22px;
+    justify-content: space-around;
+}
+.on{
+    display: block;
+    background-image: url("./assets/Marathi.jpg");
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 130px;
+    margin-left: 20px;
+}
+.two{
+    display: block;
+    background-image: url("./assets/Delhi.jpg");
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 130px;
+    margin-left: 20px;
+
+}
+.three{
+    display: block;
+    background-image: url("./assets/Karnatka.jpg");
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 130px;
+    margin-left: 20px;
+}
+.four{
+    display: block;
+    background-image: url("./assets/Kerla.jpg");
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 130px;
+    margin-left: 20px;
+}
+.five{
+    display: block;
+    background-image: url("./assets/Mal.jpg");
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 170px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+/* Part two */
+

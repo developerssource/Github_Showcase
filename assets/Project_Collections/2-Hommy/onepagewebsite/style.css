@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+   }
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+    
+}
+#Logo{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+      
+}
+
+
+#btn{
+    color:#fff;
+    background-color: blueviolet;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px 7px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 10p rgba(0, 0, 0, 0.1);
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: blueviolet;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+.hero{
+    margin: 16.5rem;
+    margin-left: 20rem ;
+    padding: 10px;
+    
+}
+.hero h2{
+    margin-left:90px ;
+    
+}
+.hero p{
+    
+    margin: auto    ;
+    padding: 10px;
+    padding-left: 1px;
+    
+}
+
+#home{
+    background-image: url(./images/duy-hoang-11sxlNCbdl0-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#about{
+      background-color: #FF7777;
+     
+}
+.content{
+    background-color: #fff;
+    width: 260px;
+    height: 470px;
+    border-radius:15px ;
+    margin-top:7rem;
+    margin-left:19rem;
+    float: center;
+
+    
+}
+img{
+    margin-top: 2px;
+}
+h3,p{
+    margin-top:2px ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    text-align: justify;
+    padding: 5px;
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    padding: 8px 8px ;
+    margin-top: 5px;
+    margin-left: 8rem;
+    border: none;
+    width: 12rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    color:black;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+
+
+#product{
+     background-color: #B52B65;
+     display: flex;
+}
+.box2{
+    background-color: #fff;
+    width: 260px;
+    height: 470px;
+    border-radius:15px ;
+    margin-top:7rem;
+    margin-left:3.5rem;
+    float: center;
+
+}
+h3{
+    margin-top: 10px;
+    color:blueviolet ;
+}
+p{
+    margin-left: 22px;
+}
+
+#pricing{
+     background-color: #3C2C3E;
+}
+
+#contact{
+     background-color: #B52B65;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.Container{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    color: aqua;
+    padding: 10%;
+    margin: 10%;
+   }
+
+
+
+
+
+
+
