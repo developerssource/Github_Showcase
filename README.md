@@ -23,7 +23,7 @@ I hosted this repository on netlify you can visit to my Github showcase [here!](
 |3|Hommy| Landing Page |[Hommy](https://homyy.netlify.app/)|
 |4|Portfolio| Website |[Portfolio](https://hardikjain.netlify.app/)|
 |5|Dev Portfolio| Website |[Dev Portfolio](https://personal-portfoliosite.netlify.app//)|
-|5|Travelling | Website |[Travelling Web](https://travell-web.netlify.app/)|
+|6|Travelling | Website |[Travelling Web](https://travell-web.netlify.app/)|
 
 
 Indivisual components like responsive and sticky navbar, animated buttons and different animatons are more interesting while developing websites, I created another repository where you will find all the web components and code samples, you can visit to repo from [here!](https://github.com/ganeshpatil386386/Web_Development)
