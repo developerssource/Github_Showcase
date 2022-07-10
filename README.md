@@ -28,3 +28,12 @@ I hosted this repository on netlify you can visit to my Github showcase [here!](
 
 Indivisual components like responsive and sticky navbar, animated buttons and different animatons are more interesting while developing websites, I created another repository where you will find all the web components and code samples, you can visit to repo from [here!](https://github.com/ganeshpatil386386/Web_Development)
 
+
+### How to contribute
+1. Fork this repository
+2. Clone to local machine
+3. Navigate to project folder
+4. Make changes to it 
+5. Create and navigate to branch 
+6. Add changes and commit
+7. push changes
