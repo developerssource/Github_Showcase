@@ -1,12 +1,15 @@
 # Github_Showcase
 
- <h1 align="center"> Hey Web Developers!  </h3>
+ 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/59861179/176093695-9420958e-ffaa-4d31-8bff-7b529ddf6217.png">
 
 </p>
-Welcome to my personal github showcase here you can find the best code samples and porjects that you need as web developer. It contains the best work I did and it includes web templates, resposive websites ans small indivisual web components. I started this repo when I built small web projects then created the complete project showcase.
+Welcome to my personal github showcase here you can find the best code samples and porjects that you need as web developer.<br> It contains the best work I did and it includes web templates, resposive websites ans small indivisual web components.
+<br>I started this repo when I built small web projects then created the complete project showcase.
+<br>
 
+### Features
 - Its Beginner frienldy web store where you can find various type of projects.
 - below I listed out the projects which are on board on github showcase you visit by clicking Live Demo links.
 - The category options describe the type of development like landing page, website or web template.
