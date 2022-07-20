@@ -40,3 +40,5 @@ Indivisual components like responsive and sticky navbar, animated buttons and di
 5. Create and navigate to branch 
 6. Add changes and commit
 7. push changes
+
+Don't forget to ⭐ this repo
